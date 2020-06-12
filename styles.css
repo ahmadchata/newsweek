@@ -13,7 +13,21 @@ body {
     background-color: #f72210;
 }
 
+.bg-yellow {
+    background-color: #ffe400;
+}
+
 .weather img {
     height: 24px;
     width: 24px
+}
+
+.lg-image {
+    width: 395px;
+    height: auto;
+}
+
+.sm-image {
+    width: 132px;
+    height: auto;
 }

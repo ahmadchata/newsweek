@@ -15,18 +15,31 @@
 
 <body>
     <header>
-        <div class="d-flex flex-row red p-4">
-            <div class="d-none d-lg-flex flex-column">
+        <div class="d-flex flex-row justify-content-between red p-1">
+            <div class="d-none d-lg-flex flex-column justify-content-center pl-3">
                 <a href="#" class="d-flex flex-row weather text-decoration-none">
-                    <img src="images/cloud.png" class="justify-content-start" alt="cloud">
+                    <img src="images/cloud.png" alt="cloud">
                     <span class="text-white ml-2">30 Suleja, NG</span>
                 </a>
                 <span class="text-white font-weight-light mt-2">Thu, Jun 11, 2020</span>
             </div>
-            <div>
-
+            <div class="d-none d-lg-block">
+                <a class="brand" href="#">
+                    <img class="lg-image" src="images/news2.png" alt="logo">
+                </a>
             </div>
-
+            <div class="d-lg-none">
+                <a class="brand" href="#">
+                    <img class="sm-image" src="images/news2.png" alt="logo">
+                </a>
+            </div>
+            <div class="d-flex flex-row align-items-end pr-3">
+                <div>
+                    <a class="text-white text-decoration-none mr-2 align-center" href="#">LOGIN</a>
+                    <button type="button"
+                        class="btn font-weight-bold rounded-pill bg-warning pl-3 pr-3 pt-0 pb-0">SUBSCRIBE</button>
+                </div>
+            </div>
         </div>
     </header>
 
