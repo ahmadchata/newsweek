@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <div class="d-flex flex-row justify-content-between red p-1">
+        <div class="d-flex flex-row justify-content-between red p-2">
             <div class="d-none d-lg-flex flex-column justify-content-center pl-3">
                 <a href="#" class="d-flex flex-row weather text-decoration-none">
                     <img src="images/cloud.png" alt="cloud">
@@ -33,14 +33,62 @@
                     <img class="sm-image" src="images/news2.png" alt="logo">
                 </a>
             </div>
-            <div class="d-flex flex-row align-items-end pr-3">
-                <div>
-                    <a class="text-white text-decoration-none mr-2 align-center" href="#">LOGIN</a>
-                    <button type="button"
-                        class="btn font-weight-bold rounded-pill bg-warning pl-3 pr-3 pt-0 pb-0">SUBSCRIBE</button>
-                </div>
+            <div class="d-flex flex-row align-items-center">
+                <i class="fas fa-user d-md-none text-white mr-1"></i>
+                <a class="d-none d-md-block text-white text-decoration-none mr-2 align-center" href="#">LOGIN</a>
+                <button type="subscribe"
+                    class="btn font-weight-bold rounded-pill bg-warning mr-1 pl-3 pr-3 pt-0 pb-0">SUBSCRIBE >
+                </button>
+                <i class="d-lg-none fas fa-bars text-white"></i>
             </div>
         </div>
+        <nav class="d-none d-lg-flex border-bottom position-relative">
+            <ul class="nav pt-1 pb-1">
+            <li class="nav-item">
+                <a class="nav-link border-right font-weight-bold" href="#">U.S</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border-right font-weight-bold" href="#">World</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border-right font-weight-bold" href="#">Business</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border-right font-weight-bold" href="#">Tech & Science</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border-right font-weight-bold" href="#">Culture</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border-right font-weight-bold" href="#">Newsgeek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link border-right font-weight-bold" href="#">Sport</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link border-right font-weight-bold" href="#">Health</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link border-right font-weight-bold" href="#">The Debate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link border-right font-weight-bold" href="#">Vantage</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#">Weather</a>
+              </li>
+              <form class="form-inline">
+                <input
+                  class="form-control border-0 pl-1 w-50"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <i class="fas fa-search"></i>
+              </form>
+        </ul>
+
+    </nav>
     </header>
 
 </body>
