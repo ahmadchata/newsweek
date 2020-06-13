@@ -47,3 +47,16 @@ nav::after {
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
 }
+
+.nav-link {
+    color: #000;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #f72210;
+}
+
+.container-fluid {
+    max-width: 1300px;
+}
