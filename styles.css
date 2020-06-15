@@ -13,10 +13,6 @@ body {
     background-color: #f72210;
 }
 
-.bg-yellow {
-    background-color: #ffe400;
-}
-
 .weather img {
     height: 24px;
     width: 24px
@@ -58,5 +54,42 @@ nav::after {
 }
 
 .container-fluid {
-    max-width: 1300px;
+    max-width: 1250px;
+}
+
+.country {
+    color: #f72210;
+    bottom: 0;
+    left: 0;
+}
+
+.card-title > a {
+    text-decoration-color: #f72210 !important;
+}
+
+.debate {
+    width: 63px;
+    height: 63px;
+}
+
+.dbt {
+    border-top: 4px solid #f72210;
+    border-bottom: 4px solid #1c87fb;
+}
+
+.vs::before,
+.vs::after {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.vs::after {
+   top: 12px;
 }

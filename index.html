@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top bg-light">
         <div class="d-flex flex-row justify-content-between red p-2">
             <div class="d-none d-lg-flex flex-column justify-content-center pl-3">
                 <a href="#" class="d-flex flex-row weather text-decoration-none">
@@ -44,67 +44,398 @@
         </div>
         <nav class="d-none d-lg-flex border-bottom position-relative">
             <ul class="nav pt-1 mb-1">
-            <li class="nav-item">
-                <a class="nav-link border-right font-weight-bold" href="#">U.S</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link border-right font-weight-bold" href="#">World</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link border-right font-weight-bold" href="#">Business</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link border-right font-weight-bold" href="#">Tech & Science</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link border-right font-weight-bold" href="#">Culture</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link border-right font-weight-bold" href="#">Newsgeek</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link border-right font-weight-bold" href="#">Sport</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link border-right font-weight-bold" href="#">Health</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link border-right font-weight-bold" href="#">The Debate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link border-right font-weight-bold" href="#">Vantage</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link font-weight-bold" href="#">Weather</a>
-              </li>
-              <form class="form-inline">
-                <input
-                  class="form-control border-0 pl-1 w-50"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <i class="fas fa-search"></i>
-              </form>
-        </ul>
+                <li class="nav-item">
+                    <a class="nav-link border-right font-weight-bold" href="#">U.S</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border-right font-weight-bold" href="#">World</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border-right font-weight-bold" href="#">Business</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border-right font-weight-bold" href="#">Tech & Science</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border-right font-weight-bold" href="#">Culture</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border-right font-weight-bold" href="#">Newsgeek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border-right font-weight-bold" href="#">Sport</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border-right font-weight-bold" href="#">Health</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border-right font-weight-bold" href="#">The Debate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border-right font-weight-bold" href="#">Vantage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#">Weather</a>
+                </li>
+                <form class="form-inline">
+                    <input class="form-control border-0 pl-1 w-50" type="search" placeholder="Search"
+                        aria-label="Search" />
+                    <i class="fas fa-search"></i>
+                </form>
+            </ul>
 
-    </nav>
+        </nav>
     </header>
     <main class="container-fluid mt-3 mx-auto">
         <div class="row">
-            <div class="col bg-warning">
+            <section class="col featured-stories">
                 <h6 class="text-secondary font-weight-bold text-uppercase">featured stories</h6>
-                <a href="#" class="card">
-                    <img class="card-img-top" src="https://d.newsweek.com/en/full/1599201/greg-fischer-louisville.webp?w=397&h=265&q=90&f=19aed6afe5dc5bc95a9afd023364fd36" alt="picture">
-                    <div class="card-body">
-
+                <div>
+                    <a href="#" class="card">
+                        <img class="card-img-top position-relative"
+                            src="https://d.newsweek.com/en/full/1599201/greg-fischer-louisville.webp?w=397&h=265&q=90&f=19aed6afe5dc5bc95a9afd023364fd36"
+                            alt="picture">
+                        <span class="position-absolute px-3 py-1 font-weight-bold bg-light country">U.S.</span>
+                    </a>
+                    <div class="card-body pt-2 p-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold text-body">Louisville Mayor Promises
+                                to
+                                Sign 'Breonna's Law' Banning No-Knock Warrants</a></h5>
+                        <p class="card-text font-weight-light">"This is one of many critical steps on police reform that
+                            we've taken to create a more peaceful, just, compassionate and equitable community,"
+                            Louisville
+                            Mayor Greg Fisher wrote on Thursday.</p>
                     </div>
-                </a>
                 </div>
-            <div class="col bg-success">
-                <h6 class="text-secondary font-weight-bold text-uppercase">top story</h6>went</div>
-            <div class="col bg-info">
-                <h6 class="text-secondary font-weight-bold text-uppercase">the debate</h6>buy</div>
+                <div class="mt-3">
+                    <a href="#" class="card">
+                        <img class="card-img-top position-relative"
+                            src="https://d.newsweek.com/en/full/1599204/mark-milley.webp?w=397&h=265&q=90&f=ef1ecbaa775b9c5d608671c36408a73d"
+                            alt="picture">
+                        <span class="position-absolute px-3 py-1 font-weight-bold bg-light country">U.S.</span>
+                    </a>
+                    <div class="card-body pt-2 p-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold text-body">Long Gray Line Warns
+                                Against 'Blind Obedience' as Gen. Milley Apologizes</a></h5>
+                        <p class="card-text font-weight-light">"When leaders betray public faith through deceitful
+                            rhetoric, quibbling, or the appearance of unethical behavior, it erodes public trust," the
+                            letter from a group of former West Point graduates read.</p>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <a href="#" class="card">
+                        <img class="card-img-top position-relative"
+                            src="https://d.newsweek.com/en/full/1599269/transgender-doctor-health.webp?w=397&h=265&q=90&f=fad36a9732887a5a4f001d72005e78cb"
+                            alt="picture">
+                        <span class="position-absolute px-3 py-1 font-weight-bold bg-light country">MY TURN</span>
+                    </a>
+                    <div class="card-body pt-2 p-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold text-body">'I'm a Trans GP Fighting
+                                for Better LGBTQ Health—J.K. Rowling's Words Hurt'</a></h5>
+                        <p class="card-text font-weight-light">A lot of women do not menstruate. As a doctor I see a lot
+                            of women who suffer from medical conditions that make them unable to menstruate—people with
+                            eating disorders, people suffering with stress and depression or those who have infertility
+                            issues.</p>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <a href="#" class="card">
+                        <img class="card-img-top position-relative"
+                            src="https://d.newsweek.com/en/full/1599196/california-police-mason-james-lira.webp?w=397&h=265&q=90&f=52b34730c85232d65c854d57caece42c"
+                            alt="picture">
+                        <span class="position-absolute px-3 py-1 font-weight-bold bg-light country">U.S.</span>
+                    </a>
+                    <div class="card-body pt-2 p-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold text-body">Gunman Wounds Police
+                                Officers In Series Of Ambushes In California</a></h5>
+                        <p class="card-text font-weight-light">The suspected gunman's father says his son has mental
+                            illnesses and often thinks he's a special agent or a soldier under attack in a war zone.</p>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <a href="#" class="card">
+                        <img class="card-img-top position-relative"
+                            src="https://d.newsweek.com/en/full/1599190/kim-jong-un-donald-trump-summit-singapore.webp?w=397&h=265&q=90&f=78e6ab2b7bd7ebc53471bcf8a49f59a1"
+                            alt="picture">
+                        <span class="position-absolute px-3 py-1 font-weight-bold bg-light country">WORLD</span>
+                    </a>
+                    <div class="card-body pt-2 p-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold text-body">North Korea: U.S. Ties
+                                Have 'Shifted Into Despair' Two Years Since Summit</a></h5>
+                        <p class="card-text font-weight-light">"Even a slim ray of optimism for peace and prosperity on
+                            the Korean peninsula has faded away into a dark nightmare," North Korean Foreign Minister Ri
+                            Son Gwon said.</p>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <a href="#" class="card">
+                        <img class="card-img-top position-relative"
+                            src="https://d.newsweek.com/en/full/1588243/roborock-h6.jpg?w=500&amp;h=333&amp;f=6f93e5f61d1abdc1297d7410d83ad030"
+                            alt="picture">
+                        <span
+                            class="position-absolute px-3 py-1 font-weight-bold bg-light text-primary country text-uppercase">sponsored
+                            insight</span>
+                    </a>
+                    <div class="card-body border border-top-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold text-body">Looking for a Powerful,
+                                Lightweight and Long-lasting Cordless Vacuum?</a></h5>
+                        <p class="card-text font-weight-light">Roborock H6, 2020 Red Dot Award Winner, Ultra-Long
+                            lasting LiPo battery, available now on Amazon.</p>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <a href="#" class="card">
+                        <img class="card-img-top position-relative"
+                            src="https://d.newsweek.com/en/full/1593448/practical-programming.png?w=500&amp;h=333&amp;l=0&amp;t=0&amp;f=456eaccff58b4551a5ca5da966ea3aeb"
+                            alt="picture">
+                        <span
+                            class="position-absolute px-3 py-1 font-weight-bold bg-light text-primary country text-uppercase">sponsored
+                            insight</span>
+                    </a>
+                    <div class="card-body border border-top-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold text-body">Want to Learn to Code
+                                Online?</a></h5>
+                        <p class="card-text font-weight-light">If you are thinking about changing career or you have
+                            recently lost your job, this might be the time to think about a career in coding.</p>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <a href="#" class="card">
+                        <img class="card-img-top position-relative"
+                            src="https://d.newsweek.com/en/full/1583918/stamford-american-international-school.jpg?w=500&amp;h=333&amp;f=13a59ab5b96a0aad9f1517cd3844b958"
+                            alt="picture">
+                        <span
+                            class="position-absolute px-3 py-1 font-weight-bold bg-light text-primary country text-uppercase">sponsored
+                            insight</span>
+                    </a>
+                    <div class="card-body border border-top-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold text-body">What is an IB Private
+                                Education and Why is it so Important?</a></h5>
+                        <p class="card-text font-weight-light">The aim of the IB is to offer the best possible
+                            international education for students of all backgrounds and from every part of the world.
+                            Find out more.</p>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <a href="#" class="card">
+                        <img class="card-img-top position-relative"
+                            src="https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&amp;h=333&amp;f=98c0ebfc554597997a0de3bd6159812a"
+                            alt="picture">
+                    </a>
+                    <div class="card-body border border-top-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold text-body">Newsweek AMPLIFY Launches
+                                Strategic Partnership Solutions for Brands</a></h5>
+                        <p class="card-text font-weight-light">Newsweek AMPLIFY, the company's performance marketing
+                            business unit, has launched a new program to empower digital brands with comprehensive
+                            content marketing and advertising strategies.</p>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <a href="#" class="card">
+                        <img class="card-img-top position-relative"
+                            src="https://d.newsweek.com/en/full/1592805/physical-rehabilitation-centers-2020.jpg?w=500&amp;h=333&amp;l=30&amp;t=42&amp;f=6984de90d0b11d8fb7e6b1758948c326"
+                            alt="picture">
+                    </a>
+                    <div class="card-body border border-top-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold text-body">Best Physical Rehab
+                                Centers</a></h5>
+                        <p class="card-text font-weight-light">Newsweek is partnering with the respected global data
+                            research firm Statista Inc. to establish a ranking of Best Physical Rehabilitation Centers
+                            in the United States 2020. If you work in this field, please participate in our survey.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="col-5 middle-section">
+                <h6 class="text-secondary font-weight-bold text-uppercase">top story</h6>
+                <div>
+                    <a href="#" class="card">
+                        <img class="card-img-top position-relative"
+                            src="https://d.newsweek.com/en/full/1597982/boris-johnson-covid-19-lockdown.webp?w=591&h=364&f=9457bb856fb5e133d18c43a095828d5c"
+                            alt="picture">
+                        <span
+                            class="position-absolute px-3 py-1 font-weight-bold bg-light text-uppercase country">world</span>
+                    </a>
+                    <div class="card-body pt-2 p-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold text-body">Black Lives Matter
+                                Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                        <p class="card-text font-weight-light">The prime minister said Winston Churchill was a hero and
+                            that it was "absurd and shameful that this national monument should today be at risk of
+                            attack by violent protestors".</p>
+                    </div>
+                </div>
+                <h6 class="mt-3 text-secondary font-weight-bold text-uppercase">my turn</h6>
+                <div class="row mt-1">
+                    <div class="col">
+                        <a href="#" class="card text-decoration-none">
+                            <img class="card-img-top h-25" src="https://d.newsweek.com/en/full/1598151/spider-man-manhattan-bridge-black-lives-matter.webp?w=397&h=397&f=e20b37a16dffe1d3fc961d40c4186757"
+                                alt="picture">    
+                        </a>
+                        <div class="card-body p-0 pt-2">
+                            <a href="#" class="text-decoration-none card-title text-secondary font-weight-bold">'I'm Protesting As Spider-Man for the Black Lives Matter Movement'</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="card text-decoration-none">
+                            <img class="card-img-top h-25" src="https://d.newsweek.com/en/full/1597646/tsunami-family-brothers.webp?w=397&h=397&f=178afe1ac0a38a65047401f0ccbb1787"
+                                alt="picture">    
+                        </a>
+                        <div class="card-body p-0 pt-2">
+                            <a href="#" class="text-decoration-none card-title text-secondary font-weight-bold">'We Lost Our Parents in the 2004 Tsunami'</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="card text-decoration-none">
+                            <img class="card-img-top h-25" src="https://d.newsweek.com/en/full/1596881/meghan-markle-look-alike-new-jersey.webp?w=397&h=397&f=f991f48848d948d0de8bbdb99fed81f5"
+                                alt="picture">    
+                        </a>
+                        <div class="card-body p-0 pt-2">
+                            <a href="#" class="text-decoration-none card-title text-secondary font-weight-bold">'I Was Bullied About My Appearance, Now I'm A Meghan Markle Look-Alike'</a>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="mt-3 text-secondary font-weight-bold text-uppercase">culture and travel</h6>
+                <div class="row mt-1">
+                    <div class="col">
+                        <a href="#" class="card text-decoration-none ">
+                            <img class="position-relative card-img-top h-25" src="https://d.newsweek.com/en/full/1598286/just-mercy.webp?w=397&h=397&f=7d4b78805dce4e5570bbbec195c8e391"
+                                alt="picture">
+                                <span class="position-absolute text-body small px-2 py-1 font-weight-bold bg-secondary country">BLACK LIVES MATTER</span>   
+                        </a>
+                        <div class="card-body p-0 pt-2">
+                            <a href="#" class="text-decoration-none card-title text-secondary font-weight-bold">A Resource Guide to Educate Yourself About Racial Injustice in America</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="card text-decoration-none ">
+                            <img class="position-relative card-img-top h-25" src="https://d.newsweek.com/en/full/1597714/cul-williemays-banner.webp?w=397&h=397&l=47&t=32&f=5def59ac589b761fc4323b0c97719e59"
+                                alt="picture">
+                                <span class="position-absolute text-body small px-2 py-1 font-weight-bold bg-secondary country">BASEBALL</span>  
+                        </a>
+                        <div class="card-body p-0 pt-2">
+                            <a href="#" class="text-decoration-none card-title text-secondary font-weight-bold">Willie Mays Explains Why the All-Star Game Meant So Much to His Generation</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="card text-decoration-none ">
+                            <img class="position-relative card-img-top h-25" src="https://d.newsweek.com/en/full/1596461/30-black-owned-wineries-worth-supporting-right-now.webp?w=397&h=397&f=3b36a58ac42aafdfe03b1afa325b2afb"
+                                alt="picture">
+                                <span class="position-absolute text-body small px-2 py-1 font-weight-bold bg-secondary country">WINE</span>  
+                        </a>
+                        <div class="card-body p-0 pt-2">
+                            <a href="#" class="text-decoration-none card-title text-secondary font-weight-bold">23 Black-Owned Wineries Worth Supporting Right Now</a>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="mt-4 text-secondary font-weight-bold text-uppercase">more stories</h6>
+                <div class="border-top border-bottom">
+                    <img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture">
+                    <div class="px-0 pt-2">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter
+                            Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                            <p>President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+                    </div>
+                </div>
+                <div class="border-bottom">
+                    <img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea" alt="picture">
+                    <div class="px-0 pt-2">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Will the Protesters Turn on Washington and Jefferson?</a></h5>
+                            <p>America's founding fathers established the system that is now being railed against nationwide.</p>
+                    </div>
+                </div>
+                <div class="border-bottom">
+                    <img class="pt-2 float-left mr-3" src="https://d.newsweek.com/en/full/1599031/confederate-statue.webp?w=95&h=95&f=91c060a12cebbefb618005780c1c4856" alt="picture">
+                    <div class="pt-2 px-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">44 Percent of Americans Say Confederate Statues Should Stay Put: Poll</a></h5>
+                            <p>The poll shows a decrease in the number of Americans that support the statues remaining on display, as 52 percent said so in a poll conducted in August 2017. In the poll from 2017, only 26 percent of respondents said that the statues should be taken down.</p>
+                    </div>
+                </div>
+                <div class="border-bottom">
+                    <img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598977/wisconsin-bars-reopen.webp?w=95&h=95&f=bcce98522612def651e467dfa6e6afc9" alt="picture">
+                    <div class="pt-2 px-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Coronavirus Cases Declining in Wisconsin, One of the First States to Reopen</a></h5>
+                            <p>The state began reopening in mid-May after the Wisconsin Supreme Court threw out an extension of Governor Tony Evers' stay-at-home order.</p>
+                    </div>
+                </div>
+                <div class="border-bottom">
+                    <img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598891/georgia-queue.webp?w=95&h=95&f=5f05a883867680291bd6c71e113a9a98" alt="picture">
+                    <div class="pt-2 px-0">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Georgia Primary Mishaps Raise Concerns for General Election's Credibility</a></h5>
+                            <p>Voters faced hours long queues to vote while there were also issues with polling stations pulling out due to COVID-19 concerns.</p>
+                    </div>
+                </div>
+                <div class="border-bottom">
+                    <img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1549421/macys-thanksgiving-day-parade-weather-nyc.webp?w=95&h=95&f=ca32d29dbfd82b0a60ab2df493f2261b" alt="picture">
+                    <div class="px-0 pt-2">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">'Paw Patrol' Feels Fan Pressure to Give Chase The Police Dog The Boot</a></h5>
+                            <p>"Better to scrap production forever if you want to make lasting change," one Twitter user chided.</p>
+                    </div>
+                </div>
+                <div class="border-bottom">
+                    <img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598871/donald-trump-white-house-rose-garden.webp?w=95&h=95&f=00a6b211157aa50868a30ad05112880c" alt="picture">
+                    <div class="px-0 pt-1">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Donald Trump's Economic Approval Rating Has Fallen Below 50 Percent: Poll</a></h5>
+                            <p>Gallup survey also found that the president's economic disapproval rating was at its highest level since November 2017.</p>
+                    </div>
+                </div>
+                <div class="border-bottom">
+                    <img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598771/christopher-columbus.webp?w=95&h=95&f=dacb1799f3847feabf0cb467ebabefb8" alt="picture">
+                    <div class="px-0 pt-2">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Ted Cruz Calls Protesters Who Pulled Down Columbus 'American Taliban'</a></h5>
+                            <p>The statue of the explorer in St Paul is the latest to be targeted by protesters amid scrutiny over his treatment of indigenous peoples and a wider debate on race.</p>
+                    </div>
+                </div>
+                <div class="border-bottom">
+                    <img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1597785/protesters-george-floyd.webp?w=95&h=95&f=a068e6fb0763736132f537b11ae3e709" alt="picture">
+                    <div class="px-0 pt-2">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">New York, Los Angeles Police Unions Concerned Over Department Budgets Cuts</a></h5>
+                            <p>The cities of Los Angeles and New York announced steep cuts to their police department budgets, amid pressure over nationwide protests of police brutality against African Americans and other minority groups.</p>
+                    </div>
+                </div>
+                <div class="border-bottom">
+                    <img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598925/jack-dorsey.webp?w=95&h=95&f=3eb2c88267cfde923a8c2de72730a645" alt="picture">
+                    <div class="px-0 pt-2">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Twitter to Encourage Users Against Spreading Articles They Haven't Read</a></h5>
+                            <p>"We wanted to test a way to improve the health of a conversation... and to see if reminding people to read an article before they share it leads to more informed discussion," Twitter Support said.</p>
+                    </div>
+                </div>
+                <div class="border-bottom">
+                    <img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598831/blm.webp?w=95&h=95&f=88aa4eb5bc41dceded8107af8d8a0118" alt="picture">
+                    <div class="px-0 pt-2">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">'George's Law' Petition Calls for Racist Crimes to Be Treated As Terrorism</a></h5>
+                            <p>The change.org petition is also adding to the growing calls to list KKK as a terrorist organization.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="col the-debate">
+                <h6 class="text-secondary font-weight-bold text-uppercase">the debate</h6>
+                <div class="dbt">
+                    <img class="debate pt-2 mr-3 float-left h-25" src="https://d.newsweek.com/en/full/1591942/rachel-bovard.webp?w=150&h=150&f=059104d19ab9b5734af4aeca003f5c78" alt="picture">
+                    <div class="px-0 pt-2">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">The Time Is Now to Rein in Big Tech</a></h5>
+                            <p>BY RACHEL BOVARD</p>
+                    </div>
+                    <div class="vs position-relative text-center rounded-circle">
+                        <span class="text-light p-2 rounded-circle bg-dark">VS</span>
+                    </div>
+                    <img class="debate pt-2 float-right h-25" src="https://d.newsweek.com/en/full/1599126/neil-chilson.webp?w=150&h=150&f=257171398d63c17ea6ecf2f1f88ae1d5" alt="picture">
+                    <div class="px-0 py-1">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">American Tech Isn't Broken. Let's Not Break It.</a></h5>
+                            <p>BY NEIL CHILSON</p>
+                    </div>
+                </div>
+                <h6 class="mt-4 text-secondary font-weight-bold text-uppercase">opinion</h6>
+                <div class="border-bottom">
+                    <img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture">
+                    <div class="px-0 pt-2">
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter
+                            Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                            <p>President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+                    </div>
+                </div>
+
+                </div>
+
+            </section>
         </div>
     </main>
 
