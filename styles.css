@@ -72,6 +72,11 @@ nav::after {
     height: 63px;
 }
 
+.debate-link > h5 > a:hover {
+    color: #f72210 !important;
+    text-decoration: none;
+}
+
 .dbt {
     border-top: 4px solid #f72210;
     border-bottom: 4px solid #1c87fb;
