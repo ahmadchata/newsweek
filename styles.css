@@ -24,6 +24,11 @@ body {
     height: auto;
 }
 
+.double {
+    top: 15px;
+    right: -15px;
+}
+
 .sm-image {
     width: 132px;
     height: auto;
@@ -50,7 +55,8 @@ nav::after {
     font-size: 1.2em;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+article > h5 {
     color: #f72210;
 }
 
@@ -108,7 +114,7 @@ nav::after {
    top: 12px;
 }
 
-.jumbotron {
+.middle {
     max-width: 300px;
 }
 
