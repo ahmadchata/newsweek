@@ -64,6 +64,14 @@ nav::after {
     left: 0;
 }
 
+.chinese {
+    background-color: rgb(224, 224, 224);
+}
+
+.chinese:hover {
+    background-color: rgb(167, 164, 164);
+}
+
 .card-title > a {
     text-decoration-color: #f72210 !important;
 }
@@ -108,5 +116,12 @@ nav::after {
     .wrap {
         max-width: 330px;
         margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+   .magazine {
+        height: 35vh;
     }
 }
