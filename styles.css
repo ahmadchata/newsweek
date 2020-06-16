@@ -25,8 +25,8 @@ body {
 }
 
 .double {
-    top: 15px;
-    right: 35px;
+    top: 10px;
+    left: 60px;
 }
 
 .sm-image {
@@ -58,6 +58,10 @@ nav::after {
 .nav-link:hover,
 article > h5 {
     color: #f72210;
+}
+
+.social {
+    font-size: 1.6rem;
 }
 
 .container-fluid {
