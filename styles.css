@@ -9,8 +9,9 @@ body {
     font-family: 'Roboto Condensed', sans-serif !important;
 }
 
-.red {
-    background-color: #f72210;
+.red,
+.signup {
+    background-color: #f72210 !important;
 }
 
 .weather img {
@@ -97,4 +98,15 @@ nav::after {
 
 .vs::after {
    top: 12px;
+}
+
+.jumbotron {
+    max-width: 300px;
+}
+
+@media only screen and (min-width: 768px) {
+    .wrap {
+        max-width: 330px;
+        margin: auto;
+    }
 }
