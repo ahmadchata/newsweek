@@ -25,7 +25,12 @@ body {
 
 .double {
     top: 10px;
-    left: 60px;
+    left: 80px;
+}
+
+.overlap {
+    max-width: 260px;
+    margin: auto;
 }
 
 .sm-image {
