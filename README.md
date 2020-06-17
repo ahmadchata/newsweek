@@ -3,7 +3,7 @@ Microverse 7th Project (Solo)
 
 > This project replicates the Newsweek website using Bootstrap, making sure Bootstrap CSS classes are used wherever possible, the layout should look as exact as the original page across all screen sizes.
 
-![screenshot](./images/screenshot.png)
+![screenshot](images/screenshot.png)
 
 The is a replica of the Newsweek website using Bootstrap.
 
