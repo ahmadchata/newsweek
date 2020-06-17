@@ -66,7 +66,27 @@ article > h5 {
 }
 
 .social {
-  font-size: 1.6rem;
+  font-size: 30px;
+}
+
+.fa-linkedin-in:hover {
+  color: rgb(5, 103, 216);
+}
+
+.fa-instagram:hover {
+  color: rgb(243, 61, 107);
+}
+
+.fa-tumblr:hover {
+  color: rgb(4, 58, 80);
+}
+
+.fa-facebook-square:hover {
+  color: rgb(3, 112, 236);
+}
+
+.fa-twitter:hover {
+  color: rgb(61, 191, 243);
 }
 
 .mxw {
@@ -109,6 +129,10 @@ article > h5 {
 .dbt {
   border-top: 4px solid #f72210;
   border-bottom: 4px solid #1c87fb;
+}
+
+.footers li a {
+  font-size: 15px;
 }
 
 .vs::before,
