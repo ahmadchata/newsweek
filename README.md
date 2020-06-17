@@ -17,7 +17,7 @@ The is a replica of the Newsweek website using Bootstrap.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ahmadchata/design-teardown/master/index.html)
+[Live Demo Link](https://raw.githack.com/ahmadchata/newsweek/feature-homepage/index.html)
 
 ## Author
 
