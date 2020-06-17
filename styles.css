@@ -134,6 +134,10 @@ article > h5 {
         margin: auto;
     }
 
+    .footer-links li a {
+        border-right: 1px solid rgb(230, 228, 228);
+    }
+
 }
 
 @media only screen and (min-width: 1024px) {
