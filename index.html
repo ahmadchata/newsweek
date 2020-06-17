@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
     <title>Newsweek</title>
 </head>
 
 <body>
-    <header class="sticky-top bg-light">
-        <div class="d-flex flex-row justify-content-between red p-2">
+    <header class="mx-0 sticky-top bg-light">
+        <div class="d-flex justify-content-between red p-2">
             <div class="d-none d-lg-flex flex-column justify-content-center pl-3">
                 <a href="#" class="d-flex flex-row weather text-decoration-none">
                     <img src="images/cloud.png" alt="cloud">
@@ -33,7 +33,7 @@
                     <img class="sm-image" src="images/news2.png" alt="logo">
                 </a>
             </div>
-            <div class="d-flex flex-row align-items-center">
+            <div class="d-flex align-items-center">
                 <i class="fas fa-user d-md-none text-white mr-1"></i>
                 <a class="d-none d-md-block text-white text-decoration-none mr-2 align-center" href="#">LOGIN</a>
                 <button type="subscribe"
@@ -43,7 +43,7 @@
             </div>
         </div>
         <nav class="d-none d-lg-flex border-bottom position-relative">
-            <ul class="nav pt-1 mb-1">
+            <ul class="container-fluid mx-0 d-flex align-items-center justify-content-between nav bg-info mb-1">
                 <li class="nav-item">
                     <a class="nav-link border-right font-weight-bold" href="#">U.S</a>
                 </li>
@@ -86,7 +86,7 @@
 
         </nav>
     </header>
-    <main class="container-fluid mt-3 mx-auto">
+    <main class="container-fluid mxw mt-3 mx-auto">
         <div class="row">
             <section class="col-md-5 col-lg featured-stories">
                 <h6 class="text-secondary font-weight-bold text-uppercase">featured stories</h6>
@@ -475,18 +475,18 @@
                             src="https://d.newsweek.com/en/full/1591942/rachel-bovard.webp?w=150&h=150&f=059104d19ab9b5734af4aeca003f5c78"
                             alt="picture"></a>
                     <div class="debate-link px-0 pt-2">
-                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">The Time Is Now to
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small">The Time Is Now to
                                 Rein in Big Tech</a></h5>
                         <p>BY RACHEL BOVARD</p>
                     </div>
-                    <div class="vs position-relative text-center rounded-circle">
+                    <div class="vs position-relative text-center">
                         <span class="text-light p-2 rounded-circle bg-dark">VS</span>
                     </div>
                     <a href="#"><img class="debate pt-2 float-right h-25"
                             src="https://d.newsweek.com/en/full/1599126/neil-chilson.webp?w=150&h=150&f=257171398d63c17ea6ecf2f1f88ae1d5"
                             alt="picture"></a>
                     <div class="debate-link px-0 py-1">
-                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">American Tech Isn't
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small">American Tech Isn't
                                 Broken. Let's Not Break It.</a></h5>
                         <p>BY NEIL CHILSON</p>
                     </div>
@@ -497,7 +497,7 @@
                             src="https://d.newsweek.com/en/full/1599103/boris-epshteyn.webp?w=63&h=63&f=5b8dd9234d26dac7d8b1d2628da59c83"
                             alt="picture"></a>
                     <div class="debate-link px-0 pt-2">
-                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Democrats' Hypocrisy
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small">Democrats' Hypocrisy
                                 on Riots Reveals Political Nature of Lockdowns</a></h5>
                         <p class="font-weight-bold text-secondary">BY BORIS EPSHTEYN</p>
                     </div>
@@ -507,7 +507,7 @@
                             src="https://d.newsweek.com/en/full/1599166/lisa-changadveja.webp?w=63&h=63&f=3f1c19eab95c0ab15aabee65cca6e449"
                             alt="picture"></a>
                     <div class="debate-link px-0 pt-2">
-                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Four Years After the
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small">Four Years After the
                                 Pulse Nightclub Shooting, the Fight Must Continue</a></h5>
                         <p class="font-weight-bold text-secondary">BY BORIS EPSHTEYN</p>
                     </div>
@@ -517,7 +517,7 @@
                             src="https://d.newsweek.com/en/full/1598272/dania-francis-anna-gifty-opoku-agyeman.webp?w=63&h=63&f=86a0d87b52e213cdc6487deca636261d"
                             alt="picture"></a>
                     <div class="debate-link px-0 pt-2">
-                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Economists' Silence
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small">Economists' Silence
                                 on Racism Is 100 Years in the Making</a></h5>
                         <p class="font-weight-bold text-secondary">BY BORIS EPSHTEYN</p>
                     </div>
@@ -527,7 +527,7 @@
                             src="https://d.newsweek.com/en/full/1599067/chen-guangcheng.webp?w=63&h=63&f=af73198a0ceb759efffe5c716aad8df1"
                             alt="picture"></a>
                     <div class="debate-link px-0 pt-2">
-                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">The U.S. and Allies
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small">The U.S. and Allies
                                 Must Unite Against China's Corrupt Regime</a></h5>
                         <p class="font-weight-bold text-secondary">BY BORIS EPSHTEYN</p>
                     </div>
@@ -537,7 +537,7 @@
                             src="https://d.newsweek.com/en/full/1598675/kristin-tate.webp?w=63&h=63&f=e6f74bbd8ed7a60de304cedc97c64f8b"
                             alt="picture"></a>
                     <div class="debate-link px-0 pt-2">
-                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">'Defund the Police'
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small">'Defund the Police'
                                 Is a Trojan Horse for New Welfare Spending</a></h5>
                         <p class="font-weight-bold text-secondary">BY BORIS EPSHTEYN</p>
                     </div>
@@ -547,7 +547,7 @@
                             src="https://d.newsweek.com/en/full/1566635/hank-johnson-michael-shank.webp?w=63&h=63&f=b2f54d8dde19e9b55c4196f6cc4c4a93"
                             alt="picture"></a>
                     <div class="debate-link px-0 pt-2">
-                        <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">The Government Is
+                        <h5 class="card-title"><a href="#" class="font-weight-bold small">The Government Is
                                 Arming Police for War. Reform Can Start Right There</a></h5>
                         <p class="font-weight-bold text-secondary">BY BORIS EPSHTEYN</p>
                     </div>
@@ -576,7 +576,7 @@
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Email address" id="usr">
                         </div>
-                        <button class="mt-2 btn signup btn-block text-uppercase text-light" type="button">free sign up
+                        <button class="mt-2 btn red btn-block text-uppercase text-light" type="button">free sign up
                             ></button>
                     </div>
                     <div class="mt-4">
@@ -647,7 +647,7 @@
             </section>
         </div>
     </main>
-    <div class="container-fluid mt-3 mx-auto">
+    <div class="container-fluid mxw mt-3 mx-auto">
         <!-- In the magazine -->
         <!-- In the magazine -->
         <section>
@@ -903,11 +903,11 @@
 
             </div>
         </section>
-        <aside>
+       <aside>
             <article class="border-top border-bottom mt-3 py-3">
                 <h5 class="font-weight-bold text-uppercase"><a href="#" class="text-decoration-none"></a>u.s.</h5>
                 <div class="row">
-                    <div class="col-md">
+                    <div class="col-md-4">
                         <a href="#" class="card">
                             <img class="card-img-top magazine"
                                 src="https://d.newsweek.com/en/full/1599758/florida-coronavirus.webp?w=397&h=265&f=d81d4c605bc883b30a073d1241ad992b"
@@ -918,7 +918,7 @@
                                     Highest Rise in Coronavirus for Fourth Straight Day</a></h5>
                         </div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md-4">
                         <a href="#" class="card">
                             <img class="card-img-top magazine"
                                 src="https://d.newsweek.com/en/full/1599738/donald-trump-ben-carson.webp?w=397&h=265&f=a5cc28d1669a8a3693cc47f6b78a05a8"
@@ -929,23 +929,23 @@
                                     Smart to Change Confederate Names of Military Bases</a></h5>
                         </div>
                     </div>
-                    <div class="row col-md">
+                    <div class="row col-md-4">
                         <div class="border-bottom pb-2 ml-3">
                             <a href="#"><img class="mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                         <div class="border-bottom py-1 ml-3">
                             <a href="#"><img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                         <div class="py-1 ml-3">
                             <a href="#"><img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                     </div>
@@ -954,7 +954,7 @@
             <article class="border-bottom mt-3 py-1">
                 <h5 class="font-weight-bold text-capitalize"><a href="#" class="text-decoration-none"></a>world</h5>
                 <div class="row">
-                    <div class="col-md">
+                    <div class="col-md-4">
                         <a href="#" class="card">
                             <img class="card-img-top magazine"
                                 src="https://d.newsweek.com/en/full/1599758/florida-coronavirus.webp?w=397&h=265&f=d81d4c605bc883b30a073d1241ad992b"
@@ -965,7 +965,7 @@
                                     Highest Rise in Coronavirus for Fourth Straight Day</a></h5>
                         </div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md-4">
                         <a href="#" class="card">
                             <img class="card-img-top magazine"
                                 src="https://d.newsweek.com/en/full/1599738/donald-trump-ben-carson.webp?w=397&h=265&f=a5cc28d1669a8a3693cc47f6b78a05a8"
@@ -976,23 +976,23 @@
                                     Smart to Change Confederate Names of Military Bases</a></h5>
                         </div>
                     </div>
-                    <div class="row col-md">
+                    <div class="row col-md-4">
                         <div class="border-bottom pb-2 ml-3">
                             <a href="#"><img class="mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                         <div class="border-bottom py-1 ml-3">
                             <a href="#"><img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                         <div class="py-1 ml-3">
                             <a href="#"><img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                     </div>
@@ -1001,7 +1001,7 @@
             <article class="border-bottom mt-3 py-1">
                 <h5 class="font-weight-bold text-capitalize"><a href="#" class="text-decoration-none"></a>business</h5>
                 <div class="row">
-                    <div class="col-md">
+                    <div class="col-md-4">
                         <a href="#" class="card">
                             <img class="card-img-top magazine"
                                 src="https://d.newsweek.com/en/full/1599758/florida-coronavirus.webp?w=397&h=265&f=d81d4c605bc883b30a073d1241ad992b"
@@ -1012,7 +1012,7 @@
                                     Highest Rise in Coronavirus for Fourth Straight Day</a></h5>
                         </div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md-4">
                         <a href="#" class="card">
                             <img class="card-img-top magazine"
                                 src="https://d.newsweek.com/en/full/1599738/donald-trump-ben-carson.webp?w=397&h=265&f=a5cc28d1669a8a3693cc47f6b78a05a8"
@@ -1023,23 +1023,23 @@
                                     Smart to Change Confederate Names of Military Bases</a></h5>
                         </div>
                     </div>
-                    <div class="row col-md">
+                    <div class="row col-md-4">
                         <div class="border-bottom pb-2 ml-3">
                             <a href="#"><img class="mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                         <div class="border-bottom py-1 ml-3">
                             <a href="#"><img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                         <div class="py-1 ml-3">
                             <a href="#"><img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                     </div>
@@ -1049,7 +1049,7 @@
                 <h5 class="font-weight-bold text-capitalize"><a href="#" class="text-decoration-none"></a>tech & science
                 </h5>
                 <div class="row">
-                    <div class="col-md">
+                    <div class="col-md-4">
                         <a href="#" class="card">
                             <img class="card-img-top magazine"
                                 src="https://d.newsweek.com/en/full/1599758/florida-coronavirus.webp?w=397&h=265&f=d81d4c605bc883b30a073d1241ad992b"
@@ -1060,7 +1060,7 @@
                                     Highest Rise in Coronavirus for Fourth Straight Day</a></h5>
                         </div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md-4">
                         <a href="#" class="card">
                             <img class="card-img-top magazine"
                                 src="https://d.newsweek.com/en/full/1599738/donald-trump-ben-carson.webp?w=397&h=265&f=a5cc28d1669a8a3693cc47f6b78a05a8"
@@ -1071,23 +1071,23 @@
                                     Smart to Change Confederate Names of Military Bases</a></h5>
                         </div>
                     </div>
-                    <div class="row col-md">
+                    <div class="row col-md-4">
                         <div class="border-bottom pb-2 ml-3">
                             <a href="#"><img class="mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                         <div class="border-bottom py-1 ml-3">
                             <a href="#"><img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                         <div class="py-1 ml-3">
                             <a href="#"><img class="pt-2 mr-3 float-left" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.webp?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="picture"></a>
                             <div class="debate-link px-0 pt-2">
-                                <h5 class="card-title"><a href="#" class="font-weight-bold small text-body">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
+                                <h5 class="card-title"><a href="#" class="font-weight-bold small">Black Lives Matter Protests 'Hijacked by Extremists' Boris Johnson Says</a></h5>
                             </div>
                         </div>
                     </div>
@@ -1095,7 +1095,7 @@
             </article>
             <div class="container-fluid">
             <div class="row mt-2">
-                <div class="col-lg-8">
+                <div class="aside col-lg-8">
                     <h6 class="font-weight-bold text-uppercase"><a href="#" class="text-decoration-none"></a>subscribe
                     </h6>
                     <div class="row jumbotron mx-auto j-bottom py-5">
@@ -1109,12 +1109,12 @@
                             <h4 class="font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
                             <p class="font-weight-light">All Access + Weekly Delivery.
                                 Choose A Membership That's Perfect for You!</p>
-                                <button class="mt-2 btn signup text-uppercase text-light" type="button">subscribe
+                                <button class="mt-2 btn red text-uppercase text-light" type="button">subscribe
                                     ></button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="aside col-lg-4">
                     <h6 class="font-weight-bold text-uppercase"><a href="#" class="text-decoration-none"></a>newsletter
                     </h6>
                     <div class="row border">
@@ -1125,7 +1125,7 @@
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Email address" id="usr">
                             </div>
-                            <button class="mt-2 btn signup btn-block text-uppercase text-light" type="button">free sign up
+                            <button class="mt-2 btn red btn-block text-uppercase text-light" type="button">free sign up
                                 ></button>
                         </div>
                     </div>
