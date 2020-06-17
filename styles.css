@@ -121,6 +121,10 @@ article > h5 {
   text-decoration: none;
 }
 
+.footers li a {
+  font-size: 15px;
+}
+
 .debate-link > h5 > a:hover {
   color: #f72210;
   text-decoration: none;
@@ -129,10 +133,6 @@ article > h5 {
 .dbt {
   border-top: 4px solid #f72210;
   border-bottom: 4px solid #1c87fb;
-}
-
-.footers li a {
-  font-size: 15px;
 }
 
 .vs::before,
