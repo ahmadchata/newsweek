@@ -1,0 +1,174 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.red {
+  background-color: #f72210;
+}
+
+.weather img {
+  height: 24px;
+  width: 24px;
+}
+
+.lg-image {
+  width: 395px;
+  height: auto;
+}
+
+.double {
+  top: 10px;
+  left: 80px;
+}
+
+.overlap {
+  max-width: 260px;
+  margin: auto;
+}
+
+.sm-image {
+  width: 132px;
+  height: auto;
+}
+
+.fa-bars {
+  font-size: 20px;
+}
+
+nav::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 100px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 1.25vw;
+}
+
+.nav-link:hover,
+.aside > h6,
+article > h5 {
+  color: #f72210;
+}
+
+.social {
+  font-size: 30px;
+}
+
+.fa-linkedin-in:hover {
+  color: rgb(5, 103, 216);
+}
+
+.fa-instagram:hover {
+  color: rgb(243, 61, 107);
+}
+
+.fa-tumblr:hover {
+  color: rgb(4, 58, 80);
+}
+
+.fa-facebook-square:hover {
+  color: rgb(3, 112, 236);
+}
+
+.fa-twitter:hover {
+  color: rgb(61, 191, 243);
+}
+
+.mxw {
+  max-width: 1300px;
+}
+
+.country {
+  color: #f72210;
+  bottom: 0;
+  left: 0;
+}
+
+.chinese {
+  background-color: rgb(224, 224, 224);
+}
+
+.chinese:hover {
+  background-color: rgb(167, 164, 164);
+}
+
+.card-title > a {
+  text-decoration-color: #f72210;
+}
+
+.debate {
+  width: 63px;
+  height: 63px;
+}
+
+.debate-link > h5 > a {
+  color: black;
+  text-decoration: none;
+}
+
+.footers li a {
+  font-size: 15px;
+}
+
+.debate-link > h5 > a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.dbt {
+  border-top: 4px solid #f72210;
+  border-bottom: 4px solid #1c87fb;
+}
+
+.vs::before,
+.vs::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.vs::after {
+  top: 12px;
+}
+
+.middle {
+  max-width: 300px;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrap {
+    max-width: 330px;
+    margin: auto;
+  }
+
+  .footer-links li a {
+    border-right: 1px solid rgb(230, 228, 228);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .magazine {
+    height: 35vh;
+  }
+}
