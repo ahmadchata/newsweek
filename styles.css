@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -39,7 +40,7 @@ body {
 }
 
 .fa-bars {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 nav::before {
@@ -108,7 +109,7 @@ article > h5 {
 }
 
 .card-title > a {
-  text-decoration-color: #f72210;
+  text-decoration-color: #f72211;
 }
 
 .debate {
@@ -118,7 +119,6 @@ article > h5 {
 
 .debate-link > h5 > a {
   color: black;
-  text-decoration: none;
 }
 
 .footers li a {
